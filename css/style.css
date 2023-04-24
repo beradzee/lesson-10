@@ -1,0 +1,107 @@
+/* bases classes */
+.flex {
+    display: flex;
+}
+/* header */
+.header {
+    padding: 25px 0;
+    margin-bottom: 100px;
+}
+.container {
+    max-width: 1171px;
+    width: 100%;
+    margin: 0 auto;
+}
+.container1 {
+    max-width: 1171px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header-wrapper {
+    justify-content: space-between;
+}
+.nav-li {
+    margin-right: 49px;
+}
+.nav-li:nth-child(4) {
+    margin-right: 0;
+}
+.nav-a {
+    text-transform: uppercase;
+}
+.icon {
+    display: none;
+    margin-right: 30px;
+}
+
+
+/* section */
+.section {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+.box-wrapper {
+    justify-content: space-between;
+}
+.left-box {
+    max-width: 241px;
+    width: 100%;
+}
+.right-box {
+    max-width: 870px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.block {
+    max-width: 269px;
+    width: 65%;
+}
+/* form styles */
+.input-wrapper {
+    flex-direction: column;
+    width: 400px;
+}
+.input-form {
+    height: 50px;
+    font-size: 15px;
+    color: red;
+    border: none;
+    border-bottom: 4px solid orange;  
+} 
+input:focus {
+    outline: none;
+}
+/* .input-form[type=text]{
+    height: 60px;
+} */
+#password {
+    padding-left: 10px;
+}
+#fname {
+    padding-left: 10px;
+}
+.form {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.button {
+    width: 100px;
+    margin-top: 50px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+textarea {
+    resize: none;
+}
+.input-form::placeholder {
+    color: red;
+}
