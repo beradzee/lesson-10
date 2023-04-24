@@ -23,6 +23,12 @@
     .nav-a {
         font-size: 14px;
     }
+    .form {
+        width: 300px;
+    }
+    .input-wrapper {
+        width: 250px;
+    }
 }
 
 
